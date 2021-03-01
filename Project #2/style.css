@@ -185,8 +185,166 @@ nav .logo {
 
 }
 
-/*-------BeforePage----------*/
+/*-------Responsive----------*/
+
+@media screen and (min-width: 1600px) {
+
+    nav .menu {
+
+        text-decoration: none;
+        color: #79AEAD;
+        position: relative;
+        left: 1150px;
+    }
+
+    nav .logo {
+
+        position: absolute;
+        top: 15px;
+        left: 90px;
+        width: 90px;
+        
+    }
+    
+    .truck {
+
+    z-index: 1000;
+    position: absolute;
+    width: 379px;
+    height: 278px;
+    top: 31rem;
+    left: 70rem;
+}
+    
+    .trees {
+
+    z-index: 1000;
+    position: absolute;
+    width: 92px;
+    height: 104px;
+    top: 22.7rem;
+    left: 60rem;
+
+}
+    
+    .clouds {
+
+    z-index: 1000;
+    position: absolute;
+    width: 752px;
+    height: 709px;
+    top: 5rem;
+    left: 40rem;
+
+}
+
+}
 
 
+@media screen and (min-width: 1700px) {
+
+    nav .menu {
+
+        text-decoration: none;
+        color: #79AEAD;
+        position: relative;
+        left: 1300px;
+    }
+
+    nav .logo {
+
+        position: absolute;
+        top: 15px;
+        left: 90px;
+        width: 90px;
+        
+    }
+    
+    .truck {
+
+    z-index: 1000;
+    position: absolute;
+    width: 379px;
+    height: 278px;
+    top: 31rem;
+    left: 80rem;
+}
+    
+    .trees {
+
+    z-index: 1000;
+    position: absolute;
+    width: 92px;
+    height: 104px;
+    top: 22.5rem;
+    left: 70rem;
+
+}
+    
+    .clouds {
+
+    z-index: 1000;
+    position: absolute;
+    width: 752px;
+    height: 709px;
+    top: 5rem;
+    left: 50rem;
+
+}
+
+}
+
+@media screen and (min-width: 1900px) {
+
+    nav .menu {
+
+        text-decoration: none;
+        color: #79AEAD;
+        position: relative;
+        left: 1500px;
+    }
+
+    nav .logo {
+
+        position: absolute;
+        top: 15px;
+        left: 90px;
+        width: 90px;
+        
+    }
+    
+    .truck {
+
+    z-index: 1000;
+    position: absolute;
+    width: 379px;
+    height: 278px;
+    top: 31rem;
+    left: 90rem;
+}
+    
+    .trees {
+
+    z-index: 1000;
+    position: absolute;
+    width: 92px;
+    height: 104px;
+    top: 22.7rem;
+    left: 80rem;
+
+}
+    
+    .clouds {
+
+    z-index: 1000;
+    position: absolute;
+    width: 752px;
+    height: 709px;
+    top: 5rem;
+    left: 62rem;
+
+}
+
+}
 
 /*--------------------Kenia'sCode------------------------*/
