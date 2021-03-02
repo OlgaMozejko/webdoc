@@ -1,0 +1,404 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+/*--------------------Kenia'sCode------------------------*/
+
+body {
+
+    background-color: rgba(129, 167, 177, 0.2);
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+nav {
+
+    background: rgba(129, 167, 177, 0);
+    box-shadow: 0 8px 32px 0 rgba(131, 143, 155, 0.37);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 0px solid rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+}
+
+ul {
+
+    list-style: none;
+
+}
+
+li {
+
+    display: inline-block;
+    margin: 30px;
+    margin-top: 20px;
+}
+
+nav .menu {
+
+    text-decoration: none;
+    color: #79AEAD;
+    position: relative;
+    left: 1040px;
+}
+
+nav .logo {
+
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    width: 80px;
+
+}
+
+.text-banner {
+
+    color: #B4C6DA;
+    width: 35%;
+    float: left;
+    margin-top: 130px;
+
+
+}
+
+.h1-text-hp {
+
+    font-size: 60px;
+    margin: 0 0 20px;
+    line-height: 1.4;
+    color: #B4C6DA;
+    margin-left: 70px;
+    margin-top: 50px;
+    text-shadow: 2px 2px 3px rgba(134, 144, 144, 0.25);
+
+}
+
+.nuuii-hp {
+
+    color: #79AEAD;
+}
+
+.button-hp {
+
+    border: 0;
+    border-radius: 30px;
+    padding: 25px 60px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #79AEAD;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 70px;
+    font-size: 20px;
+    box-shadow: -3px 1px 19px 0px rgba(48, 87, 85, 0.5);
+}
+
+.arrows-hp {
+
+    margin-left: 70px;
+    margin-top: 30px;
+
+}
+
+.arrows-hp {
+
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+.arrows-hp {
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+@-webkit-keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+
+
+
+.landscape-hp {
+
+    float: right;
+    height: 800px;
+    width: 1340px;
+    position: absolute;
+    right: 0px;
+    top: .3px;
+
+}
+
+.landscape-hp img {
+
+    max-width: 100%;
+}
+
+.truck {
+
+    z-index: 1000;
+    position: absolute;
+    width: 379px;
+    height: 278px;
+    top: 31rem;
+    left: 60rem;
+}
+
+.trees {
+
+    z-index: 1000;
+    position: absolute;
+    width: 92px;
+    height: 104px;
+    top: 22.5rem;
+    left: 51rem;
+
+}
+
+.clouds {
+
+    z-index: 1000;
+    position: absolute;
+    width: 752px;
+    height: 709px;
+    top: 5rem;
+    left: 40rem;
+
+}
+
+
+/*-----Olga's Code----*/
+
+.homepage {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10rem;
+}  
+
+.ovid {
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+.o_text {
+    color: #79AEAD;
+    font-size: 35px;
+    text-shadow: 2px 2px 3px rgba(134, 144, 144, 0.25);
+    font-weight: 610;
+    text-align: center;
+    line-height: 2;
+    word-spacing: 7px;
+}
+
+.o_vid {
+    border-radius: 50px; 
+}
+
+.o_buttons {
+    display: flex;
+    flex: row;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+.o_button {
+    height: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+/*----Olga's Code----*/
+
+/*-------Responsive----------*/
+
+@media screen and (min-width: 1600px) {
+
+    nav .menu {
+
+        text-decoration: none;
+        color: #79AEAD;
+        position: relative;
+        left: 1150px;
+    }
+
+    nav .logo {
+
+        position: absolute;
+        top: 15px;
+        left: 90px;
+        width: 90px;
+        
+    }
+    
+    .truck {
+
+    z-index: 1000;
+    position: absolute;
+    width: 379px;
+    height: 278px;
+    top: 31rem;
+    left: 70rem;
+}
+    
+    .trees {
+
+    z-index: 1000;
+    position: absolute;
+    width: 92px;
+    height: 104px;
+    top: 22.7rem;
+    left: 60rem;
+
+}
+    
+    .clouds {
+
+    z-index: 1000;
+    position: absolute;
+    width: 752px;
+    height: 709px;
+    top: 5rem;
+    left: 40rem;
+
+}
+
+}
+
+
+@media screen and (min-width: 1700px) {
+
+    nav .menu {
+
+        text-decoration: none;
+        color: #79AEAD;
+        position: relative;
+        left: 1300px;
+    }
+
+    nav .logo {
+
+        position: absolute;
+        top: 15px;
+        left: 90px;
+        width: 90px;
+        
+    }
+    
+    .truck {
+
+    z-index: 1000;
+    position: absolute;
+    width: 379px;
+    height: 278px;
+    top: 31rem;
+    left: 80rem;
+}
+    
+    .trees {
+
+    z-index: 1000;
+    position: absolute;
+    width: 92px;
+    height: 104px;
+    top: 22.5rem;
+    left: 70rem;
+
+}
+    
+    .clouds {
+
+    z-index: 1000;
+    position: absolute;
+    width: 752px;
+    height: 709px;
+    top: 5rem;
+    left: 50rem;
+
+}
+
+}
+
+@media screen and (min-width: 1900px) {
+
+    nav .menu {
+
+        text-decoration: none;
+        color: #79AEAD;
+        position: relative;
+        left: 1500px;
+    }
+
+    nav .logo {
+
+        position: absolute;
+        top: 15px;
+        left: 90px;
+        width: 90px;
+        
+    }
+    
+    .truck {
+
+    z-index: 1000;
+    position: absolute;
+    width: 379px;
+    height: 278px;
+    top: 31rem;
+    left: 90rem;
+}
+    
+    .trees {
+
+    z-index: 1000;
+    position: absolute;
+    width: 92px;
+    height: 104px;
+    top: 22.7rem;
+    left: 80rem;
+
+}
+    
+    .clouds {
+
+    z-index: 1000;
+    position: absolute;
+    width: 752px;
+    height: 709px;
+    top: 5rem;
+    left: 62rem;
+
+}
+
+}
+
+/*--------------------Kenia'sCode------------------------*/
+
+/*-----Olga's Code----*/
+
+
+
+/*----Olga's Code----*/
