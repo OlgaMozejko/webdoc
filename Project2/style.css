@@ -6,6 +6,11 @@
 
 /*--------------------Kenia'sCode------------------------*/
 
+html {
+    
+    scroll-behavior: smooth;
+}
+
 body {
 
     background-color: rgba(129, 167, 177, 0.2);
@@ -24,13 +29,13 @@ nav {
     font-weight: 400;
 }
 
-ul {
+.list-box-nav {
 
     list-style: none;
 
 }
 
-li {
+.list-nav-e {
 
     display: inline-block;
     margin: 30px;
@@ -43,6 +48,7 @@ nav .menu {
     color: #79AEAD;
     position: relative;
     left: 1040px;
+    z-index: 5000;
 }
 
 nav .logo {
@@ -609,7 +615,7 @@ img {
 #about {
     
     width: 100%;
-    height: 80vh;
+    height: 60vh;
     box-sizing: border-box;
     display: flex;
     align-items: center;
@@ -643,8 +649,9 @@ img {
     font-family: 'Poppins', sans-serif;
     font-size: 34px;
     color: #133B70;
-    padding: 0px;
+    padding: 60px 0px 0px 0px;
     margin-left: 0px;
+    
 }
 
 .benefits-text li {
@@ -653,15 +660,23 @@ img {
     color: #448C8C;
     margin-left: 0px;
     font-size: 20px;
+    list-style: none;
+    
+    
 }
 
-ul .competitor {
-    list-style-image: url("Media/times-circle.png");
+.competitor li {
+    
+    list-style-image: url(Media/times-circle.png);
+
 }
 
-ul .benefits {
-    list-style-image: url("Media/check-circle.png");
+.benefits li {
+    
+    list-style-image: url(Media/check-circle.png);
 }
+
+
 
 /*--------------------Kelly'sCode------------------------*/
 
