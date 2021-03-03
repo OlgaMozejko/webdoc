@@ -2,21 +2,23 @@
 //SCROLL REVEAL KENIA
 
 ScrollReveal({
-    duration: 1000
+    duration: 4000
 })
 
-ScrollReveal().reveal('.h1-text-hp');
+ScrollReveal().reveal('.h1-text-hp', {
+    delay: 2000
+} );
 
 ScrollReveal().reveal('.nuuii-hp', {
-    delay: 600
+    delay: 3000
 })
 
 ScrollReveal().reveal('.button-hp', {
-    delay: 1000
+    delay: 3200
 })
 
 ScrollReveal().reveal('.arrows-hp', {
-    delay: 1000
+    delay: 3200
 })
 
 var scene = document.getElementsByClassName("illustration-hp");
