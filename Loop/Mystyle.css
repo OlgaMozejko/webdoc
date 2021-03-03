@@ -1,0 +1,35 @@
+
+
+body {
+  background-color:  #B4C6DA;
+  overflow: hidden;
+}
+
+.flower {
+    
+  position: relative;
+  width: 43px;
+  height: 43px;
+  background-image: url(Imgs/Asset%203.png);
+}
+
+.title {
+    
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    height: 100px;
+    
+}
+
+.button {
+    
+background-color: #FF7F50;
+  border-radius: 20px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
