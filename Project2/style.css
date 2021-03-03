@@ -638,7 +638,8 @@ ul .benefits {
     text-align: center;
    color: #448c8c;
     font-size: 32px;
-    padding-bottom: 100px;
+    margin-bottom: 20px;
+    
 }
 
 .benefits_container1 {
@@ -646,7 +647,7 @@ ul .benefits {
     flex-direction: row;
     margin-left: 200px;
     margin-right: 200px;
-    margin-top: 20px;
+   
 }
 
 .benefits_container2 {
@@ -654,7 +655,8 @@ ul .benefits {
     flex-direction: row;
     margin-left: 200px;
     margin-right: 200px;
-    margin-top: 20px;
+    margin-bottom: 40px;
+   
 }
 
 .benefit_box {
