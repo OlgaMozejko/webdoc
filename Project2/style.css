@@ -774,6 +774,9 @@ img {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     overflow: hidden;
+    top: 80px;
+   
+    position: relative;
 
 
 }
@@ -790,6 +793,6 @@ img {
     align-items: center;
     display: flex;
     justify-content: center;
-    top: -180px;
+    top: -110px;
     color: #448c8c;
     position: relative;
