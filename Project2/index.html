@@ -74,14 +74,14 @@
         </div>
 
     </section>
-    
+
     <script src="https://unpkg.com/scrollreveal"></script>
-    
+
     <script src="JS.js"></script>
 
 
     <!--------------------Kenia'sCode------------------------>
-    
+
     <!--------------------Kelly'sCode------------------------>
 
     <section id="about">
@@ -90,7 +90,9 @@
         </div>
 
         <div class="benefits-text">
+
             <h2>Competitor</h2>
+            
             <ul class="competitor">
                 <li>Toxic to your lungs</li><br>
                 <li>Damages the environment</li><br>
@@ -99,13 +101,18 @@
             </ul>
 
             <h2>Nuuii</h2>
+            
             <ul class="benefits">
+               
                 <li>No harmful / harsh chemicals</li><br>
                 <li>Allergy tested</li><br>
                 <li>Saves space in shipping, reducing co2</li><br>
                 <li>No single use plastic</li>
+                
             </ul>
+
         </div>
+        
     </section>
 
     <!--------------------Kelly'sCode------------------------>
@@ -132,7 +139,7 @@
     <!------Olga's Code----->
 
     <!------Ieva's Code------->
-    
+
     <h1 class="i_heading"> About us</h1>
 
     <div class="slideshow-container">
@@ -152,96 +159,93 @@
             <div class="text"> The products are made without water; therefore, they are packed in paper which is produced in Denmark without any harm chemicals. As they don’t contain any water, our products are very small and easy to ship.</div>
         </div>
 
-            <div class="mySlides fade">
-                <img class="slide" src="Media/slide4.jpg" style="width:100%">
-                <div class="text"> At nuuii we are currently working with four world goals: Responsible consumption and production, Climate action, Life in the sea and Life on land. Our main goal is to protect the environment and to encourage the &nbsp&nbsp&nbsp&nbsp&nbsp use of products which protect nature.
+        <div class="mySlides fade">
+            <img class="slide" src="Media/slide4.jpg" style="width:100%">
+            <div class="text"> At nuuii we are currently working with four world goals: Responsible consumption and production, Climate action, Life in the sea and Life on land. Our main goal is to protect the environment and to encourage the &nbsp&nbsp&nbsp&nbsp&nbsp use of products which protect nature.
 
-                </div>
             </div>
-    
-
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-        </div>
-        <br>
-
-        <div class="dot_style" style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-            <span class="dot" onclick="currentSlide(4)"></span>
         </div>
 
-<footer class="footer">
-  <div class="logoimg">
-    <img class="ilogoimg" src="Media/logonuuiiwhite.png" >
-  </div>
-  <div class="social">
-    <p class="footer_link">Contact Us<br><br>
-      Niels Pedersens Allé 2<br>
 
-8830 Tjele<br>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-CVR: 41581522<br>
+    </div>
+    <br>
 
-Tel: 71791797<br>
-      </p>
-    <p class="footer_link">Social media <br><br>
-      <a class="inner_footer_link" href="https://www.instagram.com/nuuiidk/">Instagram</a><br>
-        <a class="inner_footer_link" href="https://www.facebook.com/nuuiidk-104253007922803">Facebook<br><br><br></a></p>
-  </div>
-</footer>
+    <div class="dot_style" style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
 
-        <!------Ieva's Code------->
+    <footer class="footer">
+        <div class="logoimg">
+            <img class="ilogoimg" src="Media/logonuuiiwhite.png">
+        </div>
+        <div class="social">
+            <p class="footer_link">Contact Us<br><br>
+                Niels Pedersens Allé 2<br>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+                8830 Tjele<br>
 
-        <script src="JS.js"></script>
-    
-        <script src="JSvid.js"></script>
-    
-<!--    Ieva's code-->
+                CVR: 41581522<br>
 
-        <script>
-            var slideIndex = 1;
-            showSlides(slideIndex);
+                Tel: 71791797<br>
+            </p>
+            <p class="footer_link">Social media <br><br>
+                <a class="inner_footer_link" href="https://www.instagram.com/nuuiidk/">Instagram</a><br>
+                <a class="inner_footer_link" href="https://www.facebook.com/nuuiidk-104253007922803">Facebook<br><br><br></a>
+            </p>
+        </div>
+    </footer>
 
-            function plusSlides(n) {
-                showSlides(slideIndex += n);
+    <!------Ieva's Code------->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+
+    <script src="JS.js"></script>
+
+    <script src="JSvid.js"></script>
+
+    <!--    Ieva's code-->
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {
+                slideIndex = 1
             }
-
-            function currentSlide(n) {
-                showSlides(slideIndex = n);
+            if (n < 1) {
+                slideIndex = slides.length
             }
-
-            function showSlides(n) {
-                var i;
-                var slides = document.getElementsByClassName("mySlides");
-                var dots = document.getElementsByClassName("dot");
-                if (n > slides.length) {
-                    slideIndex = 1
-                }
-                if (n < 1) {
-                    slideIndex = slides.length
-                }
-                for (i = 0; i < slides.length; i++) {
-                    slides[i].style.display = "none";
-                }
-                for (i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace(" active", "");
-                }
-                slides[slideIndex - 1].style.display = "block";
-                dots[slideIndex - 1].className += " active";
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
             }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+    <!--    Ieva's code-->
 
-        </script>
-<!--    Ieva's code-->
 
 
 
-
-</body>
-
-
-</html>
+</body></html>
