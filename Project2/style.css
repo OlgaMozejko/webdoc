@@ -644,17 +644,17 @@ ul .benefits {
 .benefits_container1 {
     display: flex;
     flex-direction: row;
-    margin-right: 5em; 
-    margin-left: 5em;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
 }
 
 .benefits_container2 {
     display: flex;
     flex-direction: row;
-    padding-top: 60px;
-    padding-bottom: 100px;
-    margin-right: 5em; 
-    margin-left: 5em; 
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
 }
 
 .benefit_box {
@@ -665,10 +665,11 @@ ul .benefits {
     transition: transform 1s;
     transform-style: preserve-3d;
     cursor: pointer;
-    width: 25%;
-    margin: 0 auto;
+    width: 50%;
+    margin: 20px;
+    
+   
 }
-
 .benefit_box.is-flipped {
     transform: rotateY(180deg);
 }
