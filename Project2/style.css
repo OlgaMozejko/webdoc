@@ -198,7 +198,7 @@ nav .logo {
     align-content: center;
     justify-content: center;
     margin: 0 auto;
-    margin-top: 5rem;
+    margin-top: 10rem;
 }
 
 .o_text {
@@ -591,8 +591,8 @@ img {
     height: 800px;
     width: 1340px;
     position: absolute;
-    right: 0px;
-    top: 5px;
+    right: 1px;
+    top: 9px;
 
 }
 
@@ -601,7 +601,7 @@ img {
     color: #B4C6DA;
     width: 100%;
     float: left;
-    margin-top: 40px;
+    margin-top: 50px;
     margin-left: 200px;
 }
 
@@ -632,11 +632,6 @@ ul .benefits {
 
 /*--------------------Kelly'sCode------------------------*/
 
-/*-----Olga's Code----*/
-
-
-
-/*----Olga's Code----*/
 
 /*----Ieva's code----*/
 @media only screen and (max-width: 300px) {
